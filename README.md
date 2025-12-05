@@ -4,7 +4,7 @@
 
 ---
 
- ##🎯 Objetivo Principal
+ ## 🎯 Objetivo Principal
 
 Este projeto consiste na implementação de um **pipeline de Análise Exploratória (EDA)** e **Modelagem Preditiva** sobre dados de Crimes Violentos Letais Intencionais (CVLI) para uma região específica, com foco em Homicídios Dolosos.
 
@@ -15,7 +15,7 @@ O objetivo é transformar dados históricos em **inteligência de Segurança Pú
 
 ---
 
- ##🛠️ Stack Tecnológico e Metodologia
+ ## 🛠️ Stack Tecnológico e Metodologia
 
 | Ferramenta | Finalidade no Projeto |
 | :--- | :--- |
@@ -24,7 +24,7 @@ O objetivo é transformar dados históricos em **inteligência de Segurança Pú
 | **Statsmodels** | Modelagem preditiva (SARIMA). |
 | **Matplotlib, Seaborn** | Visualização de tendências e sazonalidade. |
 
- ##🔑 Resultados Chave e Insights Gerados
+ ## 🔑 Resultados Chave e Insights Gerados
 
 Esta análise gerou conclusões estratégicas baseadas em dados históricos:
 
@@ -49,16 +49,16 @@ O modelo SARIMA foi validado em um conjunto de testes e demonstrou alta acuráci
 
 ---
 
-##📦 Estrutura de Dados e Execução
+## 📦 Estrutura de Dados e Execução
 
 O projeto utiliza três bases de dados principais (`.xlsx`) que devem estar no mesmo diretório do notebook principal para execução.
 
-##Dados
+### Dados
 * `CVLI_2009-2024.xlsx`: Dados históricos utilizados para treino e análise exploratória.
 * `CVLI_2025.xlsx`: Arquivo de referência para validação das projeções de séries temporais.
 * `DADOS_IBGE.xlsx`: Utilizado para enriquecimento dos dados e cálculo da Taxa por 100 mil habitantes.
 
-##Dependências
+## Dependências
 ```bash
 pip install pandas matplotlib seaborn openpyxl numpy statsmodels
 
