@@ -1,4 +1,4 @@
-# Análise Preditiva de Segurança Pública (CVLI)
+# Análise Preditiva De Homicídios no Ceará (CVLI)
 
 **Projeto de Portfólio | Análise de Séries Temporais e Modelagem Preditiva**
 
