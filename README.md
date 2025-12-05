@@ -33,7 +33,16 @@ Esta análise gerou conclusões estratégicas baseadas em dados históricos:
     * *Exemplo de Forecast:* Para Outubro de 2025, o modelo prevê **251.0 ocorrências de crimes com arma de fogo** e **242.0 para Novembro de 2025**.
 * **Validação de Tendência:** A previsão do modelo indicou uma **queda consistente no número de ocorrências** nas 4 cidades historicamente mais afetadas (Censo 2022), validando a mudança do foco da criminalidade para outros municípios (ex: Maranguape).
 
-***(OBS: Inclua aqui a métrica de precisão do modelo, se você tiver! Ex: A acurácia (MAPE) do modelo foi de 93%).***
+...
+* **Validação de Tendência:** A previsão do modelo indicou uma queda consistente no número de ocorrências nas 4 cidades historicamente mais afetadas (Censo 2022), validando a mudança do foco da criminalidade para outros municípios (ex: Maranguape).
+
+### 📈 Desempenho do Modelo Preditivo
+
+O modelo SARIMA foi validado em um conjunto de testes e demonstrou alta acurácia para a previsão de CVLI, comprovando a eficácia da modelagem para *forecasting*:
+
+* **MAPE (Erro Médio Absoluto Percentual): 13.69%**
+* **MAE (Erro Médio Absoluto): 35.54**
+* **RMSE (Raiz do Erro Quadrático Médio): 42.39**
 
 ---
 
