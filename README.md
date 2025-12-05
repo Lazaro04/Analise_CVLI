@@ -1,51 +1,54 @@
-# Analise CVLI
-Projeto acadêmico, suposto  a melhorias 
+# Análise Preditiva de Segurança Pública (CVLI)
 
-________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+**Projeto de Portfólio | Análise de Séries Temporais e Modelagem Preditiva**
 
-Descrição do Projeto
-Este projeto consiste na análise exploratória e modelagem de séries temporais de Crimes Violentos Letais Intencionais (CVLI), com foco em Homicídios Dolosos. O objetivo principal é consolidar dados históricos e recentes, calcular taxas de criminalidade por 100 mil habitantes e realizar a previsão do número de ocorrências por meio utilizado, utilizando o modelo SARIMA.
+---
 
-________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+## 🎯 Objetivo Principal
 
-O projeto utiliza três bases de dados principais, que devem estar disponíveis no mesmo diretório do notebook para execução:
+Este projeto consiste na implementação de um **pipeline de Análise Exploratória (EDA)** e **Modelagem Preditiva** sobre dados de Crimes Violentos Letais Intencionais (CVLI) para uma região específica, com foco em Homicídios Dolosos.
 
+O objetivo é transformar dados históricos em **inteligência de Segurança Pública**, realizando:
+1.  Consolidação de séries temporais históricas (2009-2024) e demográficas.
+2.  Cálculo da **Taxa de Criminalidade por 100 mil habitantes** (KPI).
+3.  Implementação do modelo **SARIMA** (Sazonal ARIMA) para gerar **projeções de ocorrências** para os próximos meses (Forecasting).
 
-CVLI_2009-2024.xlsx: Dados históricos de CVLI.
+---
 
+## 🛠️ Stack Tecnológico e Metodologia
 
-CVLI_2025.xlsx: Dados de CVLI referentes ao ano de 2025 (provisórios/projeções).
+| Ferramenta | Finalidade no Projeto |
+| :--- | :--- |
+| **Python** | Ambiente de desenvolvimento. |
+| **Pandas, NumPy** | ETL e manipulação de grandes volumes de dados. |
+| **Statsmodels** | Modelagem preditiva (SARIMA). |
+| **Matplotlib, Seaborn** | Visualização de tendências e sazonalidade. |
 
+## 🔑 Resultados Chave e Insights Gerados
 
-DADOS_IBGE.xlsx: Dados populacionais e socioeconômicos do IBGE, utilizados para o cálculo da taxa por 100 mil habitantes (incluindo a População Estimada para 2025).
-_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+Esta análise gerou conclusões estratégicas baseadas em dados históricos:
 
-Para executar este projeto, você precisará ter o Python instalado, juntamente com as seguintes bibliotecas:
+* **Identificação de Foco (KPI):** O município com o maior volume de Homicídios por 100 mil habitantes (2009-2025) foi **São João do Jaguaribe**, seguido por **Ibicuitinga, Quixeré e Guaiuba**.
+* **Projeção Preditiva (SARIMA):** O modelo foi treinado em dados históricos e utilizado para gerar previsões de ocorrências por método (ex: Arma de Fogo).
+    * *Exemplo de Forecast:* Para Outubro de 2025, o modelo prevê **251.0 ocorrências de crimes com arma de fogo** e **242.0 para Novembro de 2025**.
+* **Validação de Tendência:** A previsão do modelo indicou uma **queda consistente no número de ocorrências** nas 4 cidades historicamente mais afetadas (Censo 2022), validando a mudança do foco da criminalidade para outros municípios (ex: Maranguape).
 
-pandas
-matplotlib
-seaborn
-numpy
-openpyxl
-statsmodels (para a modelagem SARIMA)
+***(OBS: Inclua aqui a métrica de precisão do modelo, se você tiver! Ex: A acurácia (MAPE) do modelo foi de 93%).***
 
-Você pode instalar as dependências via pip:
+---
+
+## 📦 Estrutura de Dados e Execução
+
+O projeto utiliza três bases de dados principais (`.xlsx`) que devem estar no mesmo diretório do notebook principal para execução.
+
+### Dados
+* `CVLI_2009-2024.xlsx`: Dados históricos utilizados para treino e análise exploratória.
+* `CVLI_2025.xlsx`: Arquivo de referência para validação das projeções de séries temporais.
+* `DADOS_IBGE.xlsx`: Utilizado para enriquecimento dos dados e cálculo da Taxa por 100 mil habitantes.
+
+### Dependências
+```bash
 pip install pandas matplotlib seaborn openpyxl numpy statsmodels
-________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
-Como Executar
-Certifique-se de que os três arquivos de dados (CVLI_2009-2024.xlsx, CVLI_2025.xlsx, DADOS_IBGE.xlsx) estão no mesmo diretório do notebook Projeto.pynb.
 
-Abra o notebook em um ambiente como Jupyter ou Google Colab.
 
-Execute as células do notebook sequencialmente.
-________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
-
-Resultados Chave (Exemplos)
-Alguns insights gerados pela análise:
-
-Município com maior volume de Homicídios por 100mil habitantes foi São João do Jaguaribe (2009-2025)
-
-Outros Municípios de Destaque: Ibicuitinga, Quixeré e Guaiuba.
-
-Previsão SARIMA (Exemplo - Arma de Fogo): O modelo prevê 251.0 ocorrências de crimes com arma de fogo para Outubro de 2025 e 242.0 para Novembro de 2025, indicando uma projeção para os próximos meses
