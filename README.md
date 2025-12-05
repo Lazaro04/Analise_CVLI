@@ -37,7 +37,7 @@ Esta análise gerou conclusões estratégicas baseadas em dados históricos:
 **🔗 Link de Contexto (Notícia):** Este deslocamento de foco é corroborado por reportagens recentes sobre o aumento de violência em Maranguape. [Link da Notícia: https://g1.globo.com/ce/ceara/noticia/2025/11/29/com-maior-taxa-de-homicidios-do-pais-e-violencia-em-alta-maranguape-recebe-operacao-policial.ghtml]
 
 ...
-* **Validação de Tendência:** A previsão do modelo indicou uma queda consistente no número de ocorrências nas 4 cidades historicamente mais afetadas (Censo 2022), validando a mudança do foco da criminalidade para outros municípios (ex: Maranguape).
+* **Validação de Tendência:** A previsão do modelo indicou uma queda consistente no número de ocorrências nas 4 cidades historicamente mais afetadas partir do cálculo que fiz usando tanto o censo das pulações 2022 quanto a estimativa de populações para 2025, validando a mudança do foco da criminalidade para outros municípios (ex: Maranguape).
 
 ### 📈 Desempenho do Modelo Preditivo
 
