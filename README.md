@@ -32,7 +32,7 @@ Esta análise gerou conclusões estratégicas baseadas em dados históricos:
 * **Projeção Preditiva (SARIMA):** O modelo foi treinado em dados históricos e utilizado para gerar previsões de ocorrências por método (ex: Arma de Fogo).
     * *Exemplo de Forecast:* Para Outubro de 2025, o modelo prevê **251.0 ocorrências de crimes com arma de fogo** e **242.0 para Novembro de 2025**.
 ...
-* **Validação de Tendência e Impacto:** O modelo SARIMA previu uma queda consistente no número de ocorrências nas 4 cidades historicamente mais afetadas (Censo 2022). Esta queda é **validada pela realidade atual**, onde o foco da criminalidade se deslocou para novos municípios, como **Maranguape**.
+* **Validação de Tendência e Impacto:** O modelo SARIMA previu uma queda consistente no número de ocorrências nas 4 cidades historicamente mais afetadas a partir do cálculo que fiz usando tanto o censo de 2022 quanto a estimativa de populações para 2025. Esta queda é **validada pela realidade atual**, onde o foco da criminalidade se deslocou para novos municípios, como **Maranguape**.
 
 **🔗 Link de Contexto (Notícia):** Este deslocamento de foco é corroborado por reportagens recentes sobre o aumento de violência em Maranguape. [Link da Notícia: https://g1.globo.com/ce/ceara/noticia/2025/11/29/com-maior-taxa-de-homicidios-do-pais-e-violencia-em-alta-maranguape-recebe-operacao-policial.ghtml]
 
