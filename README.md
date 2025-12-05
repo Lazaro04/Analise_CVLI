@@ -1,6 +1,6 @@
 # Análise Preditiva De Homicídios no Ceará (CVLI)
 
-**Projeto de Portfólio | Análise de Séries Temporais e Modelagem Preditiva**
+**Projeto de Portfólio| Análise de Séries Temporais e Modelagem Preditiva**
 
 ---
 
@@ -34,10 +34,7 @@ Esta análise gerou conclusões estratégicas baseadas em dados históricos:
 ...
 * **Validação de Tendência e Impacto:** O modelo SARIMA previu uma queda consistente no número de ocorrências nas 4 cidades historicamente mais afetadas a partir do cálculo que fiz usando tanto o censo das pulações 2022 quanto a estimativa de populações para 2025. Esta queda é **validada pela realidade atual**, onde o foco da criminalidade se deslocou para novos municípios, como **Maranguape**.
 
-**🔗 Link de Contexto (Notícia):** Este deslocamento de foco é corroborado por reportagens recentes sobre o aumento de violência em Maranguape. [Link da Notícia: https://g1.globo.com/ce/ceara/noticia/2025/11/29/com-maior-taxa-de-homicidios-do-pais-e-violencia-em-alta-maranguape-recebe-operacao-policial.ghtml]
-
-...
-* **Validação de Tendência:** A previsão do modelo indicou uma queda consistente no número de ocorrências nas 4 cidades historicamente mais afetadas partir do cálculo que fiz usando tanto o censo das pulações 2022 quanto a estimativa de populações para 2025, validando a mudança do foco da criminalidade para outros municípios (ex: Maranguape).
+**🔗 Link de Contexto (Notícia):** Este deslocamento de foco é corroborado por reportagens recentes sobre o aumento de violência em Maranguape que se encontra em 1 lugar na pesquisa e em outros municípios Cearences como Caucaia que se encontra em oitavo lugar na pesquisa e Maracanaú que se encontra em nono lugar. [Link da Notícia: https://g1.globo.com/ce/ceara/noticia/2025/11/29/com-maior-taxa-de-homicidios-do-pais-e-violencia-em-alta-maranguape-recebe-operacao-policial.ghtml]
 
 ### 📈 Desempenho do Modelo Preditivo
 
@@ -61,6 +58,6 @@ O projeto utiliza três bases de dados principais (`.xlsx`) que devem estar no m
 ## Dependências
 ```bash
 pip install pandas matplotlib seaborn openpyxl numpy statsmodels
-
+```
 
 
