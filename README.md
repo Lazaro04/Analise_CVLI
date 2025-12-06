@@ -9,7 +9,7 @@
 Este projeto consiste na implementação de um **pipeline de Análise Exploratória (EDA)** e **Modelagem Preditiva** sobre dados de Crimes Violentos Letais Intencionais (CVLI) para uma região específica, com foco em Homicídios Dolosos.
 
 O objetivo é transformar dados históricos em **inteligência de Segurança Pública**, realizando:
-1.  Consolidação de séries temporais históricas (2009-2024) e demográficas.
+1.  Consolidação de séries temporais históricas (2009-2025) e demográficas.
 2.  Cálculo da **Taxa de Criminalidade por 100 mil habitantes** (KPI).
 3.  Implementação do modelo **SARIMA** (Sazonal ARIMA) para gerar **projeções de ocorrências** para os próximos meses (Forecasting).
 
