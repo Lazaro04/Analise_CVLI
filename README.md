@@ -34,7 +34,7 @@ Esta análise gerou conclusões estratégicas baseadas em dados históricos:
 ...
 * **Validação de Tendência e Impacto:** O modelo SARIMA previu uma queda consistente no número de ocorrências nas 4 cidades historicamente mais afetadas a partir do cálculo que fiz usando tanto o censo das pulações 2022 quanto a estimativa de populações para 2025. Esta queda é **validada pela realidade atual**, onde o foco da criminalidade se deslocou para novos municípios, como **Maranguape**, **Caucaia**, **Maracanaú**.
 
-**🔗 Link de Contexto (Notícia):** Este deslocamento de foco é corroborado por reportagens recentes sobre o aumento de violência em Maranguape que se encontra em 1 lugar na pesquisa e outros municípios Cearences como Caucaia que se encontra em oitavo lugar na pesquisa e Maracanaú que se encontra em nono lugar. [Link da Notícia: https://g1.globo.com/ce/ceara/noticia/2025/11/29/com-maior-taxa-de-homicidios-do-pais-e-violencia-em-alta-maranguape-recebe-operacao-policial.ghtml]
+**🔗 Link de Contexto (Notícia):** Este deslocamento de foco é corroborado por reportagens recentes sobre o aumento de violência em Maranguape que se encontra em 1 lugar na pesquisa e outros municípios Cearences como Caucaia que se encontra em oitavo lugar na pesquisa e Maracanaú que se encontra em nono lugar. [Link da Notícia: https://g1.globo.com/ce/ceara/noticia/2025/11/29/com-maior-taxa-de-homicidios-do-pais-e-violencia-em-alta-maranguape-recebe-operacao-policial.ghtml
 
 ### 📈 Desempenho do Modelo Preditivo
 
