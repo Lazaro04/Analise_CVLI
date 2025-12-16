@@ -6,7 +6,8 @@
 
  ## 🎯 Objetivo Principal
 
-Este projeto consiste na implementação de um **pipeline de Análise Exploratória (EDA)** e **Modelagem Preditiva** sobre dados de Crimes Violentos Letais Intencionais (CVLI) para o estado do Ceará, com foco em Homicídios Dolosos.
+Olá :),
+Este projeto consiste na implementação de uma  **pipeline de Análise Exploratória (EDA)** e **Modelagem Preditiva** sobre dados de Crimes Violentos Letais Intencionais (CVLI) para o estado do Ceará, com foco em Homicídios Dolosos.
 
 O objetivo é transformar dados históricos em **inteligência de Segurança Pública**, realizando:
 1.  Consolidação de séries temporais históricas (2009-2025) e demográficas.
