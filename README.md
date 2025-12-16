@@ -29,7 +29,7 @@ O objetivo é transformar dados históricos em **inteligência de Segurança Pú
 
 Esta análise gerou conclusões estratégicas baseadas em dados históricos:
 
-* **Identificação de Foco (KPI):** O município com o maior volume de Homicídios por 100 mil habitantes (2009-2025) foi **São João do Jaguaribe**, seguido por **Ibicuitinga, Quixeré e Guaiuba**.
+* **Identificação de Foco (KPI):** O município com o maior volume de Homicídios por 100 mil habitantes (2009-2025) foi **São João do Jaguaribe**, seguido por **Ibicuitinga, Quixeré e Guaiuba**, baseado na estimativa de populações para 2025.
 * **Projeção Preditiva (SARIMA):** O modelo foi treinado em dados históricos e utilizado para gerar previsões de ocorrências por método (ex: Arma de Fogo).
     * *Exemplo de Forecast:* Para Outubro de 2025, o modelo prevê **251.0 ocorrências de crimes com arma de fogo** e **242.0 para Novembro de 2025**.
 ...
@@ -39,7 +39,7 @@ Esta análise gerou conclusões estratégicas baseadas em dados históricos:
 
 ### 📈 Desempenho do Modelo Preditivo
 
-O modelo SARIMA foi validado em um conjunto de testes e demonstrou alta acurácia para a previsão de CVLI, comprovando a eficácia da modelagem para *forecasting*:
+O modelo SARIMA foi validado com um conjunto de cálculos e demonstrou uma acurácia positiva para a previsão de CVLI, comprovando a eficácia da modelagem para *forecasting*:
 
 * **MAPE (Erro Médio Absoluto Percentual): 13.69%**
 * **MAE (Erro Médio Absoluto): 35.54**
@@ -58,7 +58,7 @@ O projeto utiliza três bases de dados principais (`.xlsx`) que devem estar no m
 
 ## Dependências
 ```bash
-pip install pandas matplotlib seaborn openpyxl numpy statsmodels
+pip install pandas matplotlib seaborn openpyxl numpy statsmodels scikit-learn
 ```
 
 
