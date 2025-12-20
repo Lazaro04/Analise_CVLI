@@ -27,7 +27,7 @@ O objetivo é transformar dados históricos em **inteligência de Segurança Pú
 
  ## 🔑 Resultados Chave e Insights Gerados
 
-Esta análise gerou conclusões estratégicas baseadas em dados históricos:
+Esta análise gerou os seguintes resultados:
 
 * **Identificação de Foco (KPI):** O município com o maior volume de Homicídios por 100 mil habitantes (2009-2025) foi **São João do Jaguaribe**, seguido por **Ibicuitinga, Quixeré e Guaiuba**, baseado na estimativa de populações para 2025.
 * **Projeção Preditiva (SARIMA):** O modelo foi treinado em dados históricos e utilizado para gerar previsões de ocorrências por método (ex: Arma de Fogo).
